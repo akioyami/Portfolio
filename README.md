@@ -1,41 +1,30 @@
-# 📂 QA Project Portfolio: Deliverables and Artifacts
+# 🚀 QA Project Portfolio
 
-👋 **Welcome to my structured QA Portfolio!**
+👋 **Welcome to the repository for my practical QA projects.**
 
-This repository serves as the central hub for showcasing my practical testing skills across various projects and technical domains. Unlike simple file dumps, this structure demonstrates my ability to manage complex test artifacts and documentation within a project-based environment.
+This hub demonstrates my technical capabilities, ranging from test configuration to deep diagnostic analysis using logs and databases. All artifacts within are tied to realistic testing scenarios.
 
 ---
 
-### 🎯 Repository Goal
+### ⚙️ Repository Structure
 
-The main objective of this repository is to provide tangible evidence of my skills, spanning the entire QA lifecycle from test design to root cause analysis. Each folder within the repository represents a distinct project.
+This repository is organized into a single, main folder that logically separates test queries/artifacts from configuration files.
 
-### 🧭 Navigation & Structure
-
-Each project folder follows a consistent, two-part structure to ensure clarity and easy navigation for reviewers:
-
-| Folder | Content Goal | Demonstrated Skills |
+| Folder | Content Type | Purpose |
 | :--- | :--- | :--- |
-| **`1_Documentation`** | Contains test planning and reporting materials. | Test Case Design, Checklist Creation, Test Planning, Bug Reporting. |
-| **`2_Backend_Validation`** | Contains technical files used for diagnostic and data integrity checks. | **API Testing** (Postman), **SQL** (DB Validation), **KQL** (Log Analysis). |
-| **`3_CI_CD_Config`** | Contains environment setup files for integration and deployment. | **Docker** (Environment setup), **Jenkins** (Pipeline integration). |
+| **`Config & Queries/`** | Main container for all project assets. | Central hub for all technical evidence. |
+| **`Queries/`** | Log and data validation queries. | Artifacts used for *Diagnosis* and *Data Integrity*. |
+| **`Postman/`** | Postman queriesfor API testing. | Demonstrates API functional and regression testing skills. |
+| **`KQL Queries/`** | Queries for **Log Analysis** (e.g., Kibana, Azure). | Proving root cause analysis skills (e.g., finding 5xx errors). |
+| **`SQL Queries`** | Queries used to verify that API transactions correctly updated database records, ensuring data integrity. |
+| **`Tools_Config/`** | Environment and Automation Setup. | Artifacts used for *Integration* and *Environment Setup*. |
+| **`Dockerfile/`** | Files used to **containerize test environments** or microservices. | Demonstrates understanding of **Docker** for isolated testing. |
+| **`Jenkinsfile/`** | Pipeline scripts to **integrate automated tests** and manage CI/CD flow. | Demonstrates understanding of **CI/CD** integration. |
 
 ---
 
-### 🛠️ Key Technical Artifacts
+### 📑 Documentation and Test Cases
 
-The `2_Backend_Validation` folder contains real-world technical files that back up the documentation:
+**For all detailed test plans, test cases, bug reports, and scenario documentation, please refer to the dedicated GitHub Wiki for this repository.**
 
-* **Postman Queries (.json):** Exported collections used for API regression and functional testing.
-* **SQL Queries (.sql):** Queries used to verify data integrity and state changes in the database after API calls.
-* **KQL/Log Queries (.txt):** Diagnostic queries written for Kibana to investigate logs.
-
----
-
-### ❓ How to Navigate This Portfolio
-
-**For detailed Test Cases, Test Plans, and a deeper dive into project scenarios, please use the GitHub Wiki:**
-
-Click the **Wiki tab** at the top of this repository page to access the full **Test Knowledge Base**.
-
-> **The Wiki is where you will find the professional, formatted versions of Test Cases and the overall strategy for each project.**
+> **The Wiki serves as the professional Test Knowledge Base (TKB) where test strategy and reporting are fully articulated.**
