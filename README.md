@@ -1,30 +1,58 @@
-# 🚀 QA Project Portfolio
+# 🚀 QA Portfolio — Practical Software Testing Projects
 
-👋 **Welcome to the repository for my practical QA projects.**
+Welcome to my **Portfolio**, a collection of hands-on testing projects demonstrating my technical skills, analytical thinking, and structured approach to software quality.
 
-This hub demonstrates my technical capabilities, ranging from test configuration to deep diagnostic analysis using logs and databases. All artifacts within are tied to realistic testing scenarios.
-
----
-
-### ⚙️ Repository Structure
-
-This repository is organized into a single, main folder that logically separates test queries/artifacts from configuration files.
-
-| Folder | Content Type | Purpose |
-| :--- | :--- | :--- |
-| **`Config & Queries/`** | Main container for all project assets. | Central hub for all technical evidence. |
-| **`Queries/`** | Log and data validation queries. | Artifacts used for *Diagnosis* and *Data Integrity*. |
-| **`Postman/`** | Postman queriesfor API testing. | Demonstrates API functional and regression testing skills. |
-| **`KQL Queries/`** | Queries for **Log Analysis** (e.g., Kibana, Azure). | Proving root cause analysis skills (e.g., finding 5xx errors). |
-| **`SQL Queries`** | Queries used to verify that API transactions correctly updated database records, ensuring data integrity. |
-| **`Tools_Config/`** | Environment and Automation Setup. | Artifacts used for *Integration* and *Environment Setup*. |
-| **`Dockerfile/`** | Files used to **containerize test environments** or microservices. | Demonstrates understanding of **Docker** for isolated testing. |
-| **`Jenkinsfile/`** | Pipeline scripts to **integrate automated tests** and manage CI/CD flow. | Demonstrates understanding of **CI/CD** integration. |
+This repository acts as a hub, while **all project documentation is organized inside the GitHub Wiki**.  
+Each project is presented as a realistic testing scenario with goals, tools, workflows, findings, and takeaways.
 
 ---
 
-### 📑 Documentation and Test Cases
+## 📘 What You Will Find Inside the Wiki
 
-**For all detailed test plans, test cases, bug reports, and scenario documentation, please refer to the dedicated GitHub Wiki for this repository.**
+A complete set of QA artifacts used in real testing workflows:
 
-> **The Wiki serves as the professional Test Knowledge Base (TKB) where test strategy and reporting are fully articulated.**
+### 🔍 Test Documentation
+- **Test Cases**
+- **Checklists**
+- **Bug Reports**
+- **Test Plans**
+- **Feature Analysis**
+
+### 🛠 Technical Testing Assets
+- **Postman API Collections**
+- **SQL Queries for Data Validation**
+- **Docker Environments**
+- **CI/CD Pipeline Examples**
+- **KQL Queries for Log Analysis**
+- **DevTools-based investigations**
+
+### 📊 Each project includes:
+- **Project Goal**
+- **Tools Used**
+- **Steps Taken**
+- **Testing Artifacts**
+- **Key Findings/Achievements**
+- **Conclusions & Lessons Learned**
+
+---
+
+## 🧭 Quick Navigation
+
+| Section | Description |
+|--------|-------------|
+| **📂 Project Overview** | Full list of projects with descriptions and links |
+| **🧪 Test Artifacts** | Test cases, bug reports, checklists, API collections |
+| **⚙️ Technical Tools** | SQL, KQL, Docker, CI/CD, DevTools usage |
+| **📈 Conclusions** | Outcomes, improvements, insights |
+
+👉 **Start here:**  
+**▶ [Open the Wiki](https://github.com/akioyami/Portfolio/wiki)**
+
+---
+
+## 🙌 About This Portfolio
+
+My goal is to demonstrate not only familiarity with QA theory, but **real hands-on testing experience**:
+working with data, APIs, logs, environments, and documentation—similar to workflows in actual QA teams.
+
+Thanks for visiting!
